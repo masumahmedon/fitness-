@@ -69,7 +69,6 @@ body{
   font-size: 0.875rem;
 }
 /* shared/common styles end here */
-
 /* header section style start here */
 .brand{
   color: #E6533C;
@@ -86,8 +85,7 @@ body{
 }
 .nav-menu{
   border: 1px solid rgb(41, 38, 38);
-  border-radius: 39px;
-  
+  border-radius: 39px; 
 }
 .nav-menu button{
   color: #FFFFFF;
@@ -122,9 +120,6 @@ body{
   font-size: 4.875rem;
   font-weight: 900;
   line-height: 100px;
-}
-.nav-hamburger-menu{
- 
 }
 .banner-description{
   color: #6e6e6e;
@@ -245,7 +240,6 @@ body{
 }
 .btn-extra{
   margin-top: 30px;
-
 }
 .img-extra-mail{
   width: 400px;
@@ -342,7 +336,6 @@ th{
 .trainer-title{
   color:#91989b;
 }
-
 /* team section style end */
 /* footer main section style start */
 .footer-main{

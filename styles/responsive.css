@@ -34,7 +34,6 @@
 }
 .btn-primary{
   padding: 10px 30px;
-
 }
 .btn-secondary{
   margin-right: -300px;
@@ -94,11 +93,9 @@
   width: 80%;
   margin: 0px 31px 10px;
 }
-
 .btn-extra{
   padding:15px 120px ;
   margin-top:0;
-
 }
 /* team section */
 /* Calculator section */
@@ -130,7 +127,6 @@
     width: 98%;
     height: 45px;
   }
-  
 /* Calculator section */
 .team{
   margin-top: 20px;
@@ -139,31 +135,30 @@
   width: 330px;
   margin: 40px auto;
 }
-   /* footer main section  */
+/* footer section start */
    .footer-info{
     gap: 20px;
     padding-left: 20px;
-  }
-  
+  } 
 .document-description{
   font-size: 0.7rem;
 }
-  .link-1-h3,.link-2-h3{
+.link-1-h3,.link-2-h3{
     font-size: 1rem;
-  }
-  
+  }  
 li a{
   font-size: 0.8rem;
 }
 li{
   padding: 6px 0;
 }
-  .link-1{
-    margin-left:0;
-  }
+.link-1{
+  margin-left:0;
+}
   
 hr{
   width: 90%;
   margin: 0 auto;
 }
 }
+/* footer section end */
