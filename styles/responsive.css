@@ -1,0 +1,152 @@
+/* responsive style start here */
+/* nav section */
+@media screen and (max-width:576px) {
+    .nav-hamburger-menu{
+      display: block;
+      padding: 0 12px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-bar {
+      padding: 25px 20px;
+  }
+  .banner-content {
+    padding: 0 24px;
+}
+.banner-description {
+  padding: 20px 0;
+}
+.btn-secondary{
+  margin-left: 0;
+}
+/* banner section */
+.banner-container,
+.extra-mile-container, .team-container, .footer-info,.Calculator-info{
+  flex-direction: column;
+}
+.banner-title{
+  font-size: 2.25rem;
+  line-height: 35px;
+}
+.banner-img {
+  margin-left: 0;
+}
+.btn-primary{
+  padding: 10px 30px;
+
+}
+.btn-secondary{
+  margin-right: -300px;
+  padding: 10px 30px;
+}
+.rectangle-1 {
+  width: 160px;
+  height: 70px;
+  bottom: 530px;
+  left: 236px;
+}
+.rectangle-1-description {
+  letter-spacing: 0px;
+}
+.rectangle-2{
+  width: 170px;
+  height: 68px;
+  bottom: 303px;
+  right: 222px;
+}
+.rectangle-2-description {
+  font-size: 0.9rem;
+}
+/* feature section */
+.feature-types, .team-person{
+  grid-template-columns: repeat(1,1fr);
+}
+.margin-top {
+  margin-top: 0;
+}
+.title {
+  font-size: 2rem;
+}
+.item-title{
+  margin-top: 15px;
+}
+.item-description {
+  font-size: 0.875rem;
+  padding: 0 76px;
+}
+/* extra mail section */
+.extra-mile-container{
+  width: 390px;
+}
+.content-extra-mail{
+  width: auto;
+  padding: 20px 30px;
+}
+.extra-mail-title{
+  font-size: 3rem;
+}
+.extra-mail-description{
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+.img-extra-mail img {
+  width: 80%;
+  margin: 0px 31px 10px;
+}
+
+.btn-extra{
+  padding:15px 120px ;
+  margin-top:0;
+
+}
+/* team section */
+/* Calculator section */
+  .Calculator{
+    margin-top: 20px;
+  }
+  .Calculator-info{
+    padding: 0;
+    gap: 0;
+  }
+  .Calculator-chart,.Calculator-BMI{
+    width: auto;
+    margin:  20px 35px;
+  }
+  .Calculator-BMI{
+    margin-top: -10px;
+  }
+  .Calculator-chart-title,.Calculator-BMI-title{
+    padding: 15px 5px;
+    font-size: 1rem;
+  }
+  .Calculator-BMI-description{
+    margin: 0;
+  }
+  .form-field{
+    width: 50%;
+  }
+  .form-container input,textarea,select{
+    width: 98%;
+    height: 45px;
+  }
+  
+/* Calculator section */
+.team{
+  margin-top: 20px;
+}
+.team-person{
+  width: 330px;
+  margin: 40px auto;
+}
+   /* footer main section  */
+   .footer-info{
+    gap: 20px;
+  }
+  .link-1{
+    margin-left:0;
+  }
+  .footer{
+    text-align: left;
+  }
+}
