@@ -351,6 +351,7 @@ th{
 .footer-info{
   gap: 140px;
   display: flex;
+  padding: 50px 0;
 }
 .document{
   width: 50%;
@@ -366,6 +367,11 @@ th{
   width: 25%;
   margin-left: 109px;
 }
+.link-1-h3,.link-2-h3{
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 600;
+}
 .link-2{
   width: 25%;
 }
@@ -375,20 +381,17 @@ ul{
 li a{
   text-decoration: none;
   color: #838282;
-
+}
+li{
+  padding: 10px 0;
 }
 /* footer main section style end */
 /* footer section style start */
-.span{
-  width: 87%;
-  height: 2px;
-  margin: 0 auto;
-  background-color: red;
-}
 .footer{
+  font-size: 1rem;
   padding: 20px 20px;
   text-align: center;
-  color: #463ab7;
+  color: #838282;
   background-color: #191919;
 }
 /* footer main section style end */

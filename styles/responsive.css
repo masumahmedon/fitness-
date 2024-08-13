@@ -142,11 +142,28 @@
    /* footer main section  */
    .footer-info{
     gap: 20px;
+    padding-left: 20px;
   }
+  
+.document-description{
+  font-size: 0.7rem;
+}
+  .link-1-h3,.link-2-h3{
+    font-size: 1rem;
+  }
+  
+li a{
+  font-size: 0.8rem;
+}
+li{
+  padding: 6px 0;
+}
   .link-1{
     margin-left:0;
   }
-  .footer{
-    text-align: left;
-  }
+  
+hr{
+  width: 90%;
+  margin: 0 auto;
+}
 }
