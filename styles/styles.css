@@ -280,8 +280,11 @@ body{
   background-color: #222222;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px 40px 0;
+  padding: 20px 40px 40px 15px;
   gap: 199px;
+}
+.calculator-2{
+  
 }
 /* chart section */
 .Calculator-chart{
