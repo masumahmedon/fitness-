@@ -1,17 +1,17 @@
 /* responsive style start here */
 /* nav section */
 @media screen and (max-width:576px) {
-    .nav-hamburger-menu{
+.nav-hamburger-menu{
       display: block;
       padding: 0 12px;
-    }
-    .nav-menu{
+}
+.nav-menu{
         display: none;
-    }
-    .nav-bar {
+}
+.nav-bar {
       padding: 25px 20px;
-  }
-  .banner-content {
+}
+.banner-content {
     padding: 0 24px;
 }
 .banner-description {
@@ -22,7 +22,10 @@
 }
 /* banner section */
 .banner-container,
-.extra-mile-container, .team-container, .footer-info,.Calculator-info{
+.extra-mile-container,
+.team-container,
+.footer-info,
+.Calculator-info{
   flex-direction: column;
 }
 .banner-title{
@@ -164,8 +167,7 @@ li{
 }
 .link-1{
   margin-left:0;
-}
-  
+} 
 hr{
   width: 90%;
   margin: 0 auto;

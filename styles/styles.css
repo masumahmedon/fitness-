@@ -21,7 +21,6 @@ body{
   background-color: #111111;
 }
 .section,.feature-types{
-  /* display: flex; */
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -282,9 +281,6 @@ body{
   justify-content: space-between;
   padding: 20px 40px 40px 15px;
   gap: 199px;
-}
-.calculator-2{
-  
 }
 /* chart section */
 .Calculator-chart{
