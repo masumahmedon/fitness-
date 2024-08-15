@@ -250,6 +250,27 @@ body{
   border-radius: 20px;
   margin: 25px 80px;
 }
+/* extra mail section style end */
+/* Recipes section start here */
+  .recipe-card{
+    text-align: center;
+  }
+  .recipes-type{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+  }
+  .recipe-card img{
+    width: 100%;
+  }
+  .recipe-title{
+    font-size: 1.125rem;
+    font-family: 600;
+  }
+  .recipe-description{
+    color: #6e6e6e;
+  }
+/* Recipes section end here */
 /* calculator section style start */
 .Calculator-info{
   background-color: #222222;
@@ -305,7 +326,6 @@ th{
   border-radius: 10px;
 }
 /* calculator section style end */
-/* extra mail section style end */
 /* team section style start */
 .team-person{
   display: grid;
