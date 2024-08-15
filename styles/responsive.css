@@ -58,7 +58,7 @@
   font-size: 0.9rem;
 }
 /* feature section */
-.feature-types, .team-person{
+.feature-types, .team-person,.recipes-type{
   grid-template-columns: repeat(1,1fr);
 }
 .margin-top {
@@ -97,7 +97,17 @@
   padding:15px 120px ;
   margin-top:0;
 }
-/* team section */
+/* recipes section */
+.recipes{
+  margin-top: 20px;
+}
+.recipes-type{
+  width: 90%;
+  margin: 0 auto;
+}
+.recipe-card img{
+  height: 200px;
+}
 /* Calculator section */
   .Calculator{
     margin-top: 20px;

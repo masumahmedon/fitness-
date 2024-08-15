@@ -262,13 +262,17 @@ body{
   }
   .recipe-card img{
     width: 100%;
+    height: 180px;
+    border-radius: 10px;
   }
   .recipe-title{
     font-size: 1.125rem;
     font-family: 600;
+    margin-top: 10px;
   }
   .recipe-description{
     color: #6e6e6e;
+    margin-top: 10px;
   }
 /* Recipes section end here */
 /* calculator section style start */
